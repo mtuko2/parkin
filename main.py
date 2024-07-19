@@ -4,7 +4,7 @@ import pickle
 
 rectW,rectH=107,48
 
-cap=cv2.VideoCapture('carPark.mp4')
+cap=cv2.VideoCapture('vid.mp4')
 
 with open('inject','rb') as f:
     posList=pickle.load(f)
